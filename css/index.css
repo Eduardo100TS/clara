@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    background-color: rgb(24, 20, 87);
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.texto{
+    max-width: 1000px;
+    width: 100%;
+    height: 120px;
+    margin: 100px auto;
+}
+
+.texto h2{
+    background: linear-gradient(white , blue);
+    text-align: center;
+    font-size: 90px;
+}
+
+.container-map{
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    border: 7px solid rgba(0, 0, 0, 0.74);
+}
+
+.map{
+    width: 100%;
+    height: 100%;
+}
